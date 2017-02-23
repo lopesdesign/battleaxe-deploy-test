@@ -50,7 +50,7 @@ dependencies:
 
 deployment:
     staging:
-        branch: battleaxe-deploy-test
+        branch: feat/deployment-test
         commands:
         # deploy to AppEngine
         # - gcloud -q preview app deploy app.yaml --promote --version=1
